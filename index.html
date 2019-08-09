@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Starter">
+        <meta name="author" content="Admin">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>MITALENT</title>
+
+        <link rel="icon" href="./images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:600,800,900|Playfair+Display|Poppins:400,500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/styles.min.css">
+
+        <!--[if lt IE 9]> <script
+        src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    </head>
+    <body>
+        <div class="main-wrapper ">
+        <header class="header">
+            <div class="container container-my outer-indent">
+                <div class="flex-header">
+                    <nav class="nav-header">
+                        <a  href="javascript:void(0)">
+                            <span class="menu-icon menu-btn"></span>
+                        </a>
+                        <a class="nav-header-item" href="clients.html">Clients</a>
+                        <a class="nav-header-item " href="javascript:void(0)">News</a>
+                    </nav>
+                    <div class="logo">
+                        <a href="/">
+                            <img class="logo-img" src="./images/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <form method="GET" action="#" class="header-search">
+                        <input
+                            type="search"
+                            name="search"
+                            autocomplete="off"
+                            class="text-block "
+                            placeholder="search client">
+                        <button class="header-search-btn">
+                            <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                    
+                           <circle wibro class="header-search-stroke" cx="10.5" cy="10.5" r="7.5"/>
+                           <line class="header-search-stroke" x1="21" y1="21" x2="15.8" y2="15.8"/>
+                           </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <!-- header -->
+
+        <section class="header-section">
+            <div class="container container-relative">
+                <div class="verticalsocial-network">
+                    <ul class="network">
+                        <li class="network-item">
+                            <a href="javascript:void(0)">
+                                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                                    <path   class="st0" d="M15.3,0H0.7C0.3,0,0,0.3,0,0.7v14.7C0,15.7,0.3,16,0.7,16H8v-5H6V8h2V6c0-2.1,1.2-3,3-3c0.9,0,1.8,0,2,0v3h-1
+                                    c-0.6,0-1,0.4-1,1v1h2.6L13,11h-2v5h4.3c0.4,0,0.7-0.3,0.7-0.7V0.7C16,0.3,15.7,0,15.3,0z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="network-item">
+                            <a href="javascript:void(0)">
+                                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                                    <circle wibro class="st0" cx="12.1" cy="3.9" r="1"/>
+                                    <path  class="st0" d="M8,12c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S10.2,12,8,12z M8,6C6.9,6,6,6.9,6,8s0.9,2,2,2s2-0.9,2-2S9.1,6,8,6
+                                        z"/>
+                                    <path class="st0" d="M12,16H4c-2.1,0-4-1.9-4-4V4c0-2.1,1.9-4,4-4h8c2.1,0,4,1.9,4,4v8C16,14.1,14.1,16,12,16z M4,2C3.1,2,2,3.1,2,4
+                                        v8c0,1,1,2,2,2h8c0.9,0,2-1.1,2-2V4c0-0.9-1.1-2-2-2H4z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="network-item">
+                            <a href="javascript:void(0)">
+                                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                                    <path  class="st0" d="M15.8,4.8c-0.2-1.3-0.8-2.2-2.2-2.4C11.4,2,8,2,8,2S4.6,2,2.4,2.4C1,2.6,0.3,3.5,0.2,4.8C0,6.1,0,8,0,8
+                                        s0,1.9,0.2,3.2s0.8,2.2,2.2,2.4C4.6,14,8,14,8,14s3.4,0,5.6-0.4c1.4-0.3,2-1.1,2.2-2.4C16,9.9,16,8,16,8S16,6.1,15.8,4.8z M6,11V5
+                                        l5,3L6,11z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="network-item">
+                            <a href="javascript:void(0)">
+                                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                                    <path  class="st0" d="M16,3c-0.6,0.3-1.2,0.4-1.9,0.5c0.7-0.4,1.2-1,1.4-1.8c-0.6,0.4-1.3,0.6-2.1,0.8c-0.6-0.6-1.5-1-2.4-1
+                                        C9.3,1.5,7.8,3,7.8,4.8c0,0.3,0,0.5,0.1,0.7C5.2,5.4,2.7,4.1,1.1,2.1c-0.3,0.5-0.4,1-0.4,1.7c0,1.1,0.6,2.1,1.5,2.7
+                                        c-0.5,0-1-0.2-1.5-0.4l0,0c0,1.6,1.1,2.9,2.6,3.2C3,9.4,2.7,9.4,2.4,9.4c-0.2,0-0.4,0-0.6-0.1c0.4,1.3,1.6,2.3,3.1,2.3
+                                        C3.8,12.5,2.4,13,0.8,13c-0.3,0-0.5,0-0.8,0c1.5,0.9,3.2,1.5,5,1.5c6,0,9.3-5,9.3-9.3c0-0.1,0-0.3,0-0.4C15,4.3,15.6,3.7,16,3z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="slider-area">
+                    <div class="owl-carousel owl-theme main-carousel">
+                        
+                        <div class="item">
+                            <div class="form-slide">
+                                <div class="animation-slider">
+                                    <div class="firstpart"></div>
+                                    <div class="secondpart"></div>
+                                </div>
+                                <img class="slide" src="./images/slider5.jpg">
+                            </div>
+                            <div class="title-slider  translate-title-slider">
+                                <h1 class="slider-name transition-slider-name">Georgina Alson</h1>
+                                <p class="description-slider transition-description-slider">young model 2020</p>
+                            </div>
+                            <div class="linkandbutton">
+                                <a class="view profile-page">
+                                    View profile
+                                </a>
+                                <button class="play">
+                                    <img class="animation-btn" src="./images/play.svg">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="form-slide">
+                                <div class="animation-slider">
+                                    <div class="firstpart"></div>
+                                    <div class="secondpart"></div>
+                                </div>
+                                <img class="slide" src="./images/slider12.jpg">
+                            </div>
+                            <div class="title-slider  translate-title-slider">
+                                <h1 class="slider-name transition-slider-name">Leo Jenkins</h1>
+                                <p class="description-slider transition-description-slider">young musician 2020</p>
+                            </div>
+                            <div class="linkandbutton">
+                                <a class="view profile-page">
+                                    View profile
+                                </a>
+                                <button class="play">
+                                    <img class="animation-btn" src="./images/play.svg">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="form-slide">
+                                <div class="animation-slider">
+                                    <div class="firstpart"></div>
+                                    <div class="secondpart"></div>
+                                </div>
+                                <img class="slide" src="./images/slider6.jpg">
+                            </div>
+                            <div class="title-slider  translate-title-slider">
+                                <h1 class="slider-name transition-slider-name">Katherine Rundell</h1>
+                                <p class="description-slider transition-description-slider">young actress 2020</p>
+                            </div>
+                            <div class="linkandbutton">
+                                <a class="view profile-page">
+                                    View profile
+                                </a>
+                                <button class="play">
+                                    <img class="animation-btn" src="./images/play.svg">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="form-slide">
+                                <div class="animation-slider">
+                                    <div class="firstpart"></div>
+                                    <div class="secondpart"></div>
+                                </div>
+                                <img class="slide" src="./images/slider13.jpg">
+                            </div>
+                            <div class="title-slider  translate-title-slider">
+                                <h1 class="slider-name transition-slider-name">Matthew Clark</h1>
+                                <p class="description-slider transition-description-slider">young comedian 2020</p>
+                            </div>
+                            <div class="linkandbutton">
+                                <a class="view profile-page">
+                                    View profile
+                                </a>
+								<button class="play ">
+                                    <img class="animation-btn" src="./images/play.svg">
+                                </button>
+                            </div>
+						</div>
+						
+					</div>
+					
+
+
+                </div>
+            </div>
+        </section> 
+
+        <section>
+            <div class="container gutters ">
+                <div id="tabs">
+                    <ul class="filter margin-bottom">
+                        <li class="filter-part"><a href="#tabs-1">Actor</a></li>
+                        <li class="filter-part"><a href="#tabs-2">Musician</a></li>
+                        <li class="filter-part"><a href="#tabs-3">Comedian</a></li>
+                        <li class="filter-part"><a href="#tabs-4">Model</a></li>
+                    </ul>
+                    <div class="filter-artist inner-padding" id="tabs-1">
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Kate Connolly<span>Actor</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/12.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Keith Ruiz<span>Actress</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/9.jpg" alt=""> 
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Daniel Boffey<span>Actor</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/10.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Mattha Busby<span>Actress</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/11.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Jason Burke<span>Actress</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/13.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Megan Kale<span>Actor</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/16.jpg" alt="">
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Jeffrey Epstein<span>Actress</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/15.jpg" alt="">
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Sirin Kale<span>Actress</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/17.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="filter-artist inner-padding" id="tabs-2">
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Kate Connolly<span>Musician</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/1.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Keith Ruiz<span>Musician</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/2.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Mattha Busby<span>Musician</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/3.jpg" alt="">
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Daniel Boffey<span>Musician</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/8.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Jason Burke<span>Musician</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/4.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Megan Kale<span>Musician</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/5.jpg" alt="">
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Jeffrey Epstein<span>Musician</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/6.jpg" alt="">
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Sirin Kale<span>Musician</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/7.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="filter-artist inner-padding" id="tabs-3">
+                            <a
+                                class="filter-artist__item "
+                                href="javascript:void(0)">
+                                <div class="information-artist-active">
+                                    <p class="information-artist">Kate Connolly<span>Comedian</span></p>
+                                    <div class="circle wibro"></div>
+                                </div>
+                                <img src="./images/filter/14.jpg" alt="">
+                            </a>
+                            <a
+                                class="filter-artist__item "
+                                href="javascript:void(0)">
+                                <div class="information-artist-active">
+                                    <p class="information-artist">Daniel Boffey<span>Comedian</span></p>
+                                    <div class="circle wibro"></div>
+                                </div>
+                                <img src="./images/filter/24.jpg" alt="">
+                            </a>
+                            <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Keith Ruiz<span>Comedian</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/20.jpg" alt="">
+                            </a>
+                            <a
+                                class=" filter-artist__item "
+                                href="javascript:void(0)">
+                                <div class="information-artist-active">
+                                    <p class="information-artist">Mattha Busby<span>Comedian</span></p>
+                                    <div class="circle wibro"></div>
+                                </div>
+                                <img src="./images/filter/25.jpg" alt="">
+                            </a>
+                            <a
+                                class=" filter-artist__item "
+                                href="javascript:void(0)">
+                                <div class="information-artist-active">
+                                    <p class="information-artist">Jason Burke<span>Comedian</span></p>
+                                    <div class="circle wibro"></div>
+                                </div>
+                                <img src="./images/filter/15.jpg" alt="">
+                            </a>
+                            <a
+                                class=" filter-artist__item "
+                                href="javascript:void(0)">
+                                <div class="information-artist-active">
+                                    <p class="information-artist">Megan Kale<span>Comedian</span></p>
+                                    <div class="circle wibro"></div>
+                                </div>
+                                <img src="./images/filter/31.jpg" alt="">
+                            </a>
+                            <a
+                                class="filter-artist__item "
+                                href="javascript:void(0)">
+                                <div class="information-artist-active">
+                                    <p class="information-artist">Jeffrey Epstein<span>Comedian</span></p>
+                                    <div class="circle wibro"></div>
+                                </div>
+                                <img src="./images/filter/30.jpg" alt="">
+                            </a>
+                            <a
+                                class="filter-artist__item "
+                                href="javascript:void(0)">
+                                <div class="information-artist-active">
+                                    <p class="information-artist">Sirin Kale<span>Comedian</span></p>
+                                    <div class="circle wibro"></div>
+                                </div>
+                                <img src="./images/filter/28.jpg" alt="">
+                            </a>
+                    </div>
+                    <div class="filter-artist inner-padding" id="tabs-4">
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Keith Ruiz<span>Model</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/9.jpg" alt="">
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Kate Connolly<span>Model</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/18.jpg" alt="">
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Daniel Boffey<span>Model</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/22.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Mattha Busby<span>Model</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/19.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Jason Burke<span>Model</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/26.jpg" alt="">
+                        </a>
+                        <a
+                            class=" filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Megan Kale<span>Model</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/21.jpg" alt="">
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Jeffrey Epstein<span>Model</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/29.jpg" alt="">
+                        </a>
+                        <a
+                            class="filter-artist__item "
+                            href="javascript:void(0)">
+                            <div class="information-artist-active">
+                                <p class="information-artist">Sirin Kale<span>Model</span></p>
+                                <div class="circle wibro"></div>
+                            </div>
+                            <img src="./images/filter/27.jpg" alt="">
+                        </a>
+                    </div>
+            </div>
+                <div class="explore-bottom">
+                    <a href="/clients.html">explore more</a> 
+                </div>
+            </div>
+        </section>
+
+        <!-- section -->
+
+        <section id="news">
+            <div class="container inner-margin">
+                <h2 class="news-title">Latest News</h2>
+                
+                <div class="grid-news">
+
+                    <section class="section-one section-clients">
+                        <div class="imgnews">
+                            <a href="javascript:void(0)">
+                                <img src="./images/1news.jpg" alt=""></a>
+                            
+                        </div>
+                        <div class="content-clients"> 
+                            <a href="javascript:void(0)">5 Reasons To Keep Your Beauty Salon Reservation</a>
+                            <span>8 March, 2020</span>
+                        </div>
+                    </section>
+
+                    <section class="section-two section-clients">
+                        <div class="imgnews">
+                            <a href="javascript:void(0)">
+                                <img src="./images/3news.jpg" alt=""></a>                 
+                        </div>
+                        <div class="content-clients">
+                            <a href="javascript:void(0)">Benjamin Franklin Method Of Habit Formation</a>
+                            <span>8 March, 2020</span>
+                        </div>
+                        
+                    </section>
+
+                    <section class="section-three section-clients">
+                        <div class="imgnews">
+                            <a href="javascript:void(0)">
+                                <img src="./images/4news.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="content-clients">
+                            <a href="javascript:void(0)">29 Motivational Quotes For Business And Other Work Environments</a>
+                            <span>8 March, 2020</span>
+                        </div>
+                        
+                    </section>
+
+
+
+                    <section class="news-section section-four">
+                            <div class="  imgnews-container container-img"> 
+                                <img src="./images/9news.jpg">
+                                <div class="imgplay">
+                                    <a href="javascript:void(0)">Use Your Reset Button To Change Your Vibration</a>
+                                    <span>8 March, 2020</span>
+                                    <div class="play-news"></div>
+                                  </div>  
+                            </div>
+                                <a class="trending-link">trending</a>
+                        </section>
+
+
+
+
+                    <section class="news-section section-five ">
+                        <div class="owl-carousel horizontal-carousel container-img">
+                                <a href="javascript:void(0)">
+                                    <img src="./images/8news.jpg">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="./images/8news1.jpg">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="./images/8news2.jpg">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img src="./images/8news3.jpg">
+                                </a> 
+                        </div>
+                            <a class="section-caption">Motivation And Your Personal Vision An Unbeatable Force<span>8 March, 2020</span></a>
+                        </section>
+
+                        <section class="news-section section-six">
+                            <div class="container-img">
+                                <a href="javascript:void(0)"><img src="./images/10news.jpg"></a>
+                            </div>
+                            <a class="section-caption">Dream Interpretation Common Symbols And Their Meanings<span>8 March, 2020</span></a>
+                        </section>
+
+                        <section class=" news-section section-seven">
+                            <div class="owl-carousel container-img vertical-carousel">
+                                <img src="./images/6news.jpg">
+                                 <div>
+                                     <div class="playcircle wibro"></div>
+                                     <img src="./images/6news2.jpg">
+                                </div>
+                                
+                                <img src="./images/6news1.jpg">
+                                <img src="./images/6news3.jpg">
+                                
+                            </div>
+                            <a class="media-part section-caption" href="javascript:void(0)">29 Motivational Quotes For Business And Other Work Environments
+                                <span>8 March, 2020</span></a>
+                        </section>
+
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="upper-footer">
+                        <div class="logo-footer">
+                            <a href="/">
+                                <img class="logo-img logo-img-small" src="./images/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="sub-footer">
+                            <a href="javascript:void(0)">
+                                <p>sign up our newsletter</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lower-footer">
+                        <p class="copyright">© 2018 MI Talent. Designed by Tranmautritam for Mass Impression</p>
+                        <div class="horizontalsocial-network">
+                            <ul class="network-horizontal">
+                                <li class="network-item">
+                                    <a href="javascript:void(0)">
+                                        <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                                            <path   class="st0" d="M15.3,0H0.7C0.3,0,0,0.3,0,0.7v14.7C0,15.7,0.3,16,0.7,16H8v-5H6V8h2V6c0-2.1,1.2-3,3-3c0.9,0,1.8,0,2,0v3h-1
+                                            c-0.6,0-1,0.4-1,1v1h2.6L13,11h-2v5h4.3c0.4,0,0.7-0.3,0.7-0.7V0.7C16,0.3,15.7,0,15.3,0z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="network-item">
+                                    <a href="javascript:void(0)">
+                                        <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                                            <circle wibro class="st0" cx="12.1" cy="3.9" r="1"/>
+                                            <path  class="st0" d="M8,12c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S10.2,12,8,12z M8,6C6.9,6,6,6.9,6,8s0.9,2,2,2s2-0.9,2-2S9.1,6,8,6
+                                                z"/>
+                                            <path class="st0" d="M12,16H4c-2.1,0-4-1.9-4-4V4c0-2.1,1.9-4,4-4h8c2.1,0,4,1.9,4,4v8C16,14.1,14.1,16,12,16z M4,2C3.1,2,2,3.1,2,4
+                                                v8c0,1,1,2,2,2h8c0.9,0,2-1.1,2-2V4c0-0.9-1.1-2-2-2H4z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="network-item">
+                                    <a href="javascript:void(0)">
+                                        <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                                            <path  class="st0" d="M15.8,4.8c-0.2-1.3-0.8-2.2-2.2-2.4C11.4,2,8,2,8,2S4.6,2,2.4,2.4C1,2.6,0.3,3.5,0.2,4.8C0,6.1,0,8,0,8
+                                                s0,1.9,0.2,3.2s0.8,2.2,2.2,2.4C4.6,14,8,14,8,14s3.4,0,5.6-0.4c1.4-0.3,2-1.1,2.2-2.4C16,9.9,16,8,16,8S16,6.1,15.8,4.8z M6,11V5
+                                                l5,3L6,11z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="network-item">
+                                    <a href="javascript:void(0)">
+                                        <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                                            <path  class="st0" d="M16,3c-0.6,0.3-1.2,0.4-1.9,0.5c0.7-0.4,1.2-1,1.4-1.8c-0.6,0.4-1.3,0.6-2.1,0.8c-0.6-0.6-1.5-1-2.4-1
+                                                C9.3,1.5,7.8,3,7.8,4.8c0,0.3,0,0.5,0.1,0.7C5.2,5.4,2.7,4.1,1.1,2.1c-0.3,0.5-0.4,1-0.4,1.7c0,1.1,0.6,2.1,1.5,2.7
+                                                c-0.5,0-1-0.2-1.5-0.4l0,0c0,1.6,1.1,2.9,2.6,3.2C3,9.4,2.7,9.4,2.4,9.4c-0.2,0-0.4,0-0.6-0.1c0.4,1.3,1.6,2.3,3.1,2.3
+                                                C3.8,12.5,2.4,13,0.8,13c-0.3,0-0.5,0-0.8,0c1.5,0.9,3.2,1.5,5,1.5c6,0,9.3-5,9.3-9.3c0-0.1,0-0.3,0-0.4C15,4.3,15.6,3.7,16,3z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </footer>
+                </div>
+
+
+        <!-- mob menu -->
+        <div class="mob-wrapper">
+            <div class="menu-mob">
+                <ul class="nav-list"> 
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Talent</a></li>
+                    <li><a href="#">Industry</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+                    <script src="js/main.min.js"></script>
+                </body>
+            </html>
