@@ -23,10 +23,17 @@
             <div class="container container-my outer-indent">
                 <div class="flex-header">
                     <nav class="nav-header">
-                        <a  href="javascript:void(0)">
-                            <span class="menu-icon menu-btn"></span>
-                        </a>
-                        <a class="nav-header-item" href="clients.html">Clients</a>
+                        <div class="transform-menu">
+                            <a  class="menu-block" href="javascript:void(0)">
+                                <span class="menu-icon menu-btn"></span>
+                            </a>
+                            <nav class="transform-menu-nav "> 
+                                <a class="menu-nav__link menu-nav__link2" href="javascript:void(0)">Home</a>
+                                <a class="menu-nav__link menu-nav__link1" href="javascript:void(0)">About</a>
+                            </nav>
+                        </div>
+                        
+                        <a class="nav-header-item item-clients" href="clients.html">Clients</a>
                         <a class="nav-header-item " href="javascript:void(0)">News</a>
                     </nav>
                     <div class="logo">
@@ -687,7 +694,7 @@
 
 
         <!-- mob menu -->
-        <div class="mob-wrapper">
+        <!-- <div class="mob-wrapper">
             <div class="menu-mob">
                 <ul class="nav-list"> 
                     <li><a href="#">Home</a></li>
@@ -699,7 +706,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-        </div>
+        </div> -->
                     <script src="js/main.min.js"></script>
                 </body>
             </html>
